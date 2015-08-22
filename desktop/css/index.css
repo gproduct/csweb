@@ -1,6 +1,73 @@
 body{
 
 }
+
+
+
+#toggleSideBar{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	top: 20%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	float: left;
+}
+#sideBarLeft{
+	width: 60px;
+	height: 240px;
+	background-color: #000;
+	position: fixed;
+	top: 20%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	float: left;
+	display: none;
+
+}
+.itemLeft{
+	width: 60px;
+	height: 60px;
+}
+#facebookLeft{
+	width: 60px;
+	height: 60px;
+	background-color: #3b5998;
+}
+#twitterLeft{
+	width: 60px;
+	height: 60px;
+	background-color: #4099FF;
+}
+#googleplusLeft{
+	width: 60px;
+	height: 60px;
+	background-color:  #d34836;
+}
+#rssLeft{
+	width: 60px;
+	height: 60px;
+	background-color: #ee802f;
+}
+#testForScroll{
+	width: 100%;
+	height: 2000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /********************
 *		MAIN 		*
 *********************/
@@ -141,7 +208,7 @@ body{
 						margin: 0 auto;
 					}
 					/*
-					:sznL ~420yooo,GyurexBa,EnizoO,DR TROY,lac1,Ancient Evil,Adadu,Guszti Ők azok.Meg a tulaj Andrew.
+					Joxxa, SznL, Adadu, Gyurex, Guszti, Andrew,EnizoO
 					*/
 					.admin-sor{
 						width: 270px;
@@ -150,14 +217,11 @@ body{
 						margin-left: 15px;
 					}
 						.admin{
-							width: 29px;
+							width: 37px;
 							height: 100px;
 							background: white;
 							border-left: 1px solid #000;
 							float: left;
-						}
-						.sznl{
-
 						}
 					.right-box{
 						width: 100%;
